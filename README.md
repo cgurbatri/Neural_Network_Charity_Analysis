@@ -23,7 +23,6 @@ Compiling, Training, and Evaluating the Model:
 4. changing the activation function of the hidden layers to tanh
 
 ## Summary 
-In all attempts at optimization, the accuracy produced was ~72. Therefore, I'd recommend reducing the number of epochs back to 100 to decrease training time. Additionally, during pre-processing columns that may not contribute to learning can be dropped, which might improve accuracy. Additionally, using "dropout" might improce accuracy as it will force the neurons to learn new information.
-
+In all attempts at optimization, the accuracy produced was ~72. Therefore, I'd recommend reducing the number of epochs back to 100 to decrease training time. Additionally, during pre-processing columns that may not contribute to learning can be dropped, which might improve accuracy. Additionally, using "dropout" might improce accuracy as it will force the neurons to learn new information. Additionally, a random forest classifier could be a more accurate model because it can combine multiple weak learners (ensemble learning) and is generally known to have high accuracy (tho it is prone to overfitting).
 
 
